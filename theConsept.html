@@ -1,31 +1,361 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>THE CONSEPT</title>
-        <link rel="stylesheet" type="text/css" href="theConsept.css">
-    </head>
+
+<head>
+    <title>THE CONCEPT</title>
+    <link rel="stylesheet" type="text/css" href="theConsept.css">
+    <link href="StyleSheet.css" rel="stylesheet">
+</head>
+
 <body>
-    <div class="box1"> <!--
-        add ythis one
-    -->
-        <ul>
+    <ul>
+        <div class="title">
+            <div class="animation">
+                <!-- animation here?-->
+                The concept
+            </div>
+        </div>
+        <div class="upper_toggle_bar">
             <li><a href="">EUR</a>></li>
             <li><a href="">English</a>"></li>
             <li><a href="">My Account</a></li>
-        </ul>
+        </div>
+    </ul>
+    <div class="logo">
+        <div class="shadows">
+            <!-- <span>T</span>
+            <span>H</span>
+            <span>E</span>
+            <span> </span>
+            <span>C</span>
+            <span>O</span>
+            <span>N</span>
+            <span>C</span>
+            <span>E</span>
+            <span>P</span>
+            <span>T</span>
+             -->
+            The concept
+        </div>
     </div>
-    <div class="subbox">
+    <ol>
+        <div class="subbox">
+            <li><a href="">Home</a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </div>
+    </ol>
+    <div class="sticky-toolbar-container">
+        <!-- you can see how to make it here : https://webdesign.tutsplus.com/tutorials/how-to-create-a-sticky-toolbar-with-css-and-javascript--cms-40630 -->
+        <button aria-label="open toolbar" type="button" class="open-toolbar toggle-toolbar">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="40" height="40"
+                viewBox="0 0 24 24">
+                <path d="M12.293 20.707 3.586 12l8.707-8.707 1.414 1.414L6.414 12l7.293 7.293z" />
+                <path d="M18.293 20.707 9.586 12l8.707-8.707 1.414 1.414L12.414 12l7.293 7.293z" />
+            </svg>
+        </button>
 
-        <ol>
-        <li><a href="">Home</a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        </ol>
+        <div class="sticky-toolbar">
+            <a aria-label="go to the cart page" href="" data-tooltip="view cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="40" height="40"
+                    viewBox="0 0 24 24">
+                    <path
+                        d="M17 16H8.387l.334-1h10.034l2.571-9H6.644l-.9-3H3v2h1.256l2.695 8.984-.708 2.125A2.995 2.995 0 0 0 4 19c0 1.654 1.346 3 3 3s3-1.346 3-3c0-.352-.072-.686-.184-1h4.369A2.943 2.943 0 0 0 14 19c0 1.654 1.346 3 3 3s3-1.346 3-3-1.346-3-3-3zm1.674-8-1.429 5H8.744l-1.5-5h11.43zM8 19c0 .551-.449 1-1 1s-1-.449-1-1 .449-1 1-1 1 .449 1 1zm9 1c-.551 0-1-.449-1-1s.449-1 1-1 1 .449 1 1-.449 1-1 1z" />
+                </svg>
+            </a>
 
+            <a aria-label="give us a call" href="" data-tooltip="call us">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="40" height="40"
+                    viewBox="0 0 24 24">
+                    <path
+                        d="M15.894 22.239c-3.018 0-6.569-1.602-9.551-4.582-4.758-4.759-6-10.971-2.828-14.143a5.89 5.89 0 0 1 3.392-1.696l.76-.11 2.797 6.522-2.797 1.398c.648 1.228 1.63 2.497 2.919 3.786 1.229 1.229 2.497 2.204 3.77 2.896l1.314-2.573 6.483.926.038.827c.095 2.059-.495 3.786-1.706 4.996-1.184 1.184-2.793 1.753-4.591 1.753zM6.461 3.972a3.9 3.9 0 0 0-1.532.958c-2.3 2.299-1.004 7.48 2.828 11.313 3.834 3.833 9.014 5.126 11.314 2.828.766-.766 1.042-1.776 1.11-2.67l-3.367-.481-.646 1.294a1.974 1.974 0 0 1-1.186 1.01 2.044 2.044 0 0 1-1.583-.157c-1.44-.783-2.863-1.873-4.228-3.238-1.43-1.43-2.529-2.859-3.268-4.248a2.008 2.008 0 0 1-.14-1.561 1.989 1.989 0 0 1 1.012-1.182l1.106-.553-1.42-3.313z" />
+                </svg>
+            </a>
 
+            <a aria-label="go to the contact page" href="" data-tooltip="email us">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="40" height="40"
+                    viewBox="0 0 24 24">
+                    <path d="M2 4v16h20V4H2zm18 2v.465l-8 5.333-8-5.333V6h16zM4 18V8.869l8 5.334 8-5.334V18H4z" />
+                </svg>
+            </a>
 
+            <button aria-label="close toolbar" type="button" class="close-toolbar toggle-toolbar">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="40" height="40"
+                    viewBox="0 0 24 24">
+                    <path d="m11.707 20.707-1.414-1.414L17.586 12l-7.293-7.293 1.414-1.414L20.414 12z" />
+                    <path d="m5.707 20.707-1.414-1.414L11.586 12 4.293 4.707l1.414-1.414L14.414 12z" />
+                </svg>
+            </button>
+        </div>
     </div>
+
+    <footer class="page-footer">
+        <span>made by </span>
+        <a href="https://georgemartsoukos.com/" target="_blank">
+            <img width="24" height="24" src="https://assets.codepen.io/162656/george-martsoukos-small-logo.svg"
+                alt="George Martsoukos logo">
+        </a>
+    </footer>
+
 </body>
+
 </html>
+<style>
+    .upper_toggle_bar {
+        display: inline-block;
+        text-align: right;
+    }
+
+    .title {
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+        background-color: black;
+        padding-left: 10px;
+        text-align: center;
+        height: 100px;
+        padding-top: 30px;
+
+
+    }
+
+    @keyframes heading {
+        from {
+            background-color: red;
+        }
+
+        to {
+            background-color: yellow;
+        }
+    }
+
+    .animation:hover {
+        background-color: blue;
+        animation-duration: 4s;
+        animation-name: heading;
+    }
+
+
+    .logo {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .shadows {
+        position: relative;
+        text-transform: uppercase;
+        text-shadow: -15px 5px 20px #867f7f;
+        color: rgb(239, 229, 199);
+        letter-spacing: -0.05em;
+        font-family: "Anton", Arial, sans-serif;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-transform: uppercase;
+        font-size: 30px;
+        transition: all 1s ease-out;
+    }
+
+
+    .subbox {
+        margin-top: 60px;
+        float: left;
+        position: relative;
+        left: 300%;
+        width: 100px;
+        font-size: 14px;
+        font-family: barlow condensed, sans-serif;
+        list-style-type: none;
+        text-decoration: none;
+        color: black;
+        display: none;
+    }
+
+    .subbox:hover {
+        float: left;
+        color: rgb(212, 151, 151);
+        display: block;
+    }
+
+
+    .shadows:hover {
+        text-shadow: -16px 6px 15px #ced0d3;
+    }
+
+    @keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 100%;
+        }
+
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+
+    .logo:hover {
+        animation-duration: 3s;
+        animation-name: slidein;
+        /* animation-iteration-count: infinite;
+    animation-direction: alternate; */
+        animation-duration: 2s;
+        animation-iteration-count: 4;
+
+
+    }
+
+
+
+
+    :root {
+        --whip: #decbb1;
+        --cream: #b69b7d;
+        --caramel: #8f614b;
+        --mocha: #382a1d;
+        --black: #070502;
+    }
+
+    button {
+        cursor: pointer;
+        background: none;
+        border: none;
+    }
+
+    a {
+        color: inherit;
+    }
+
+    body {
+        font-family: "IBM Plex Sans", sans-serif;
+        background: var(--light-grey);
+    }
+
+    .sticky-toolbar-container {
+        position: fixed;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        width: 80px;
+        z-index: 2;
+        text-align: center;
+    }
+
+    .sticky-toolbar-container .toggle-toolbar {
+        background: var(--cream);
+    }
+
+    .sticky-toolbar-container .toggle-toolbar.open-toolbar {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 100%;
+        transform: translateY(-50%);
+    }
+
+    .sticky-toolbar-container .sticky-toolbar {
+        display: flex;
+        flex-direction: column;
+        transform: translateX(100%);
+    }
+
+    .sticky-toolbar-container .toggle-toolbar.open-toolbar,
+    .sticky-toolbar-container .sticky-toolbar {
+        transition: transform 0.2s;
+    }
+
+    .sticky-toolbar-container svg {
+        fill: var(--black);
+    }
+
+    .sticky-toolbar-container .sticky-toolbar>*,
+    .sticky-toolbar-container .toggle-toolbar.open-toolbar {
+        padding: 12px;
+    }
+
+    .sticky-toolbar-container .sticky-toolbar a {
+        position: relative;
+        margin-bottom: 1px;
+        background: var(--whip);
+    }
+
+    .sticky-toolbar-container .sticky-toolbar a::before,
+    .sticky-toolbar-container .sticky-toolbar a::after {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s;
+    }
+
+    .sticky-toolbar-container .sticky-toolbar a::before {
+        content: attr(data-tooltip);
+        right: calc(100% + 5px);
+        font-size: 14px;
+        white-space: nowrap;
+        padding: 4px 8px;
+        color: var(--whip);
+        background: var(--mocha);
+    }
+
+    .sticky-toolbar-container .sticky-toolbar a::after {
+        content: "";
+        right: 100%;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid var(--mocha);
+
+    }
+
+    .sticky-toolbar-container .sticky-toolbar a:hover::before,
+    .sticky-toolbar-container .sticky-toolbar a:hover::after {
+        opacity: 1;
+    }
+
+    /*CLASSES*/
+    .sticky-toolbar-container.show-toolbar .open-toolbar {
+        transform: translateY(-50%) translateX(100%);
+    }
+
+    .sticky-toolbar-container.show-toolbar .sticky-toolbar {
+        transform: none;
+    }
+
+
+    /* FOOTER STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .page-footer {
+        position: fixed;
+        right: 0;
+        bottom: 50px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        z-index: 1;
+    }
+
+    .page-footer a {
+        display: flex;
+        margin-left: 4px;
+    }
+</style>
+<script>
+    const toggleToolbar = document.querySelectorAll(".toggle-toolbar");
+    const stickyToolbarContainer = document.querySelector(
+        ".sticky-toolbar-container"
+    );
+
+    toggleToolbar.forEach(function (element) {
+        element.addEventListener("click", function () {
+            stickyToolbarContainer.classList.toggle("show-toolbar");
+        });
+    });
+
+</script>
